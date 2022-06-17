@@ -1,0 +1,49 @@
+// main: ../style.less
+
+.blog {
+    margin-top: 14rem;
+    margin-bottom: 8.13rem;
+
+    @media @tablet {
+        margin-top: 12rem;
+        margin-bottom: 5rem;
+    }
+}
+
+.blog__header {
+    margin-bottom: 3.6rem;
+
+    text-align: center;
+}
+
+.blog__title {
+    margin-bottom: 0.3rem;
+    
+    font-size: 3rem;
+    color: @black;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    @media @mobile {
+       font-size: 2rem; 
+    }
+}
+
+.blog__text {
+    font-size: 1.2rem;
+    color: @gray-light;
+    font-weight: 300;
+}
+
+.blog__footer {
+    text-align: right;
+}
+
+.blog__link {
+    font-size: 0.93rem;
+    color: @gray;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
