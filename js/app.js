@@ -1,11 +1,11 @@
 $(function() {
 
-    let header = $("#header");
-    let intro = $("#intro");
-    let introH = intro.innerHeight();
-    let scrollPos = $(window).scrollTop();
-    let nav = $("#nav");
-    let navToggle = $("#navToggle");
+    let header = $("#header"),
+        intro = $("#intro"),
+        introH = intro.innerHeight(),
+        scrollPos = $(window).scrollTop(),
+        nav = $("#nav"),
+        navToggle = $("#navToggle");
     const worksSlider = $('[data-slider="slick"]');
 
 
